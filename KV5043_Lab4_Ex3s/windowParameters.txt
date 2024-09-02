@@ -1,0 +1,3 @@
+Name From the File, 100, 100, 400, 100
+Another Window, 600, 100, 400, 100
+Yet another one, 1000, 100, 400, 100
