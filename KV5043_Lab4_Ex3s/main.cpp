@@ -3,7 +3,7 @@
 #include <sstream>
 //1) ToDo: include the window.h header
 
-//2) Tod: include the filehandling header
+//2) ToDo: include the filehandling header
 
 
 int main(int argc, char* argv[])
