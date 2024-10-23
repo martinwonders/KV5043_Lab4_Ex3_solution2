@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 	//3) ToDo: Create a C++ string namd fileContents
 	
 	
-	//4) ToDo: Create a const C++ string named fileName ans assign it a literal string to match the fileName
+	//4) ToDo: Create a const C++ string named fileName and assign it a literal string to match the fileName
 	
 
 	//5) ToDo: Call the readFromFile function using the fileName and fileContents strings
