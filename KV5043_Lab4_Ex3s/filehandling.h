@@ -4,7 +4,13 @@
 
 namespace fileParameters
 {
-	const std::string FILE_NAME = "example.txt";
+	const std::string FILE_NAME = "windowParameters.txt";
+	const char DELIMITER = ',';
+}
+
+namespace configParameters
+{
+	const std::string RECT_IDENTIFIER = "rectangle";
 }
 
 void readFromFile(const std::string& fileName);

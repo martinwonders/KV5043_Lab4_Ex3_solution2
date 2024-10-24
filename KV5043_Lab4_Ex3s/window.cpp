@@ -28,10 +28,10 @@ void Window::Render()
 	for (Rectangle& rect : rectanglesToRender)
 	{
 		SDL_Rect r;
-		r.x = rect.xPosition;
-		r.y = rect.yPosition;
-		r.w = rect.width;
-		r.h = rect.height;
+		r.x = static_cast<int>(rect.xPosition);
+		r.y = static_cast<int>(rect.yPosition);
+		r.w = static_cast<int>(rect.width);
+		r.h = static_cast<int>(rect.height);
 		SDL_SetRenderDrawColor(
 			renderer, 
 			rect.colour.red,
